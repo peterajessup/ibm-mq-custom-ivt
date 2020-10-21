@@ -13,6 +13,7 @@ spec:
     storage:
       queueManager:
         enabled: true
+    imagePullPolicy: Always
     availability:
       type: SingleInstance
     name: QM1
