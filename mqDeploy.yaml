@@ -13,9 +13,6 @@ spec:
     storage:
       queueManager:
         enabled: true
-        class: ibmc-bock-gold
-        type: persistent-claim
-        size: 20G
     imagePullPolicy: Always
     availability:
       type: SingleInstance
